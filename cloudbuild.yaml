@@ -1,0 +1,8 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/evalia-2900/evalia-bot', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/evalia-2900/evalia-bot']
+
+images:
+  - 'gcr.io/evalia-2900/evalia-bot'
