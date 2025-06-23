@@ -1,0 +1,7 @@
+streamlit
+streamlit-chat
+groq
+whisper
+numpy
+scipy
+python-dotenv
